@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/take_home_spacing_15"
+    android:background="@drawable/rounded_edit_text"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/aliasLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/take_home_spacing_15"
+        android:layout_marginTop="@dimen/take_home_spacing_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/aliasTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/take_home_spacing_10"
+            android:text="@string/alias_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/take_home_item_text_17"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aliasServiceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/alias_description"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/take_home_item_text_17"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/selfLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/take_home_spacing_15"
+        android:layout_marginTop="@dimen/take_home_spacing_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/selfTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/take_home_spacing_10"
+            android:text="@string/self_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/take_home_item_text_17"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/selfServiceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:contentDescription="@string/self_description"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/take_home_item_text_17"
+            android:textStyle="italic"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shortLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/take_home_spacing_15"
+        android:layout_marginVertical="@dimen/take_home_spacing_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shortTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/take_home_spacing_10"
+            android:text="@string/short_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/take_home_item_text_17"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/shortServiceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:contentDescription="@string/short_description"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/take_home_item_text_17"
+            android:textStyle="italic"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/urlItemView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/take_home_spacing_2"
+        android:layout_marginHorizontal="@dimen/take_home_spacing_10"
+        android:background="@color/view_line_item" />
+
+</LinearLayout>

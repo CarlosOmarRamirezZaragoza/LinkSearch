@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ dimens.xml
+  ~ CitiMobileApp Android
+  ~ Created by ada.araujo on 07/25/23, 12:57 PM
+  ~ Copyright © 2023 Globant-MX. All rights reserved.
+  -->
+<resources>
+    <dimen name="take_home_spacing_2">2dp</dimen>
+    <dimen name="take_home_spacing_10">10dp</dimen>
+    <dimen name="take_home_spacing_15">15dp</dimen>
+    <dimen name="take_home_spacing_30">30dp</dimen>
+    <dimen name="take_home_spacing_45">45dp</dimen>
+    <dimen name="take_home_spacing_60">60dp</dimen>
+    <dimen name="take_home_width_50">50dp</dimen>
+    <dimen name="take_home_width_250">250dp</dimen>
+    <dimen name="take_home_height_0">0dp</dimen>
+    <dimen name="take_home_height_50">50dp</dimen>
+
+    <dimen name="take_home_text_20">20sp</dimen>
+    <dimen name="take_home_item_text_17">17sp</dimen>
+
+</resources>
