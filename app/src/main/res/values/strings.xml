@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">TakeHome</string>
+
+    <string name="shortened_url">Introduce la Url</string>
+    <string name="recently_shortened_url">URLs recientes</string>
+
+    <string name="edit_text_auto_hint">Campo para la buscar la url.</string>
+    <string name="send_button_auto_hint">To launch petition.</string>
+
+    <string name="alias_title">Alias:</string>
+    <string name="self_title">Self:</string>
+    <string name="short_title">Short:</string>
+
+    <string name="alias_description">Numero del Url alias</string>
+    <string name="self_description">Url propia</string>
+    <string name="short_description">Url cortada</string>
+
+    <string name="invalid_url">Url invalida</string>
+    <string name="no_url_saved">No se encontraron url guardadas</string>
+</resources>
