@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TakeHome</string>
+
+    <string name="shortened_url">Enter URL here</string>
+    <string name="recently_shortened_url">Recently shortened URLs</string>
+
+    <string name="edit_text_auto_hint">Field to search the shorten url.</string>
+    <string name="send_button_auto_hint">To launch petition.</string>
+
+    <string name="alias_title">Alias:</string>
+    <string name="self_title">Self:</string>
+    <string name="short_title">Short:</string>
+
+    <string name="alias_description">Url alias number</string>
+    <string name="self_description">Self url</string>
+    <string name="short_description">Short url</string>
+
+    <string name="invalid_url">Invalid URL</string>
+    <string name="no_url_saved">No found URL saved</string>
+</resources>
