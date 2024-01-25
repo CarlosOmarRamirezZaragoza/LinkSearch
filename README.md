@@ -8,6 +8,8 @@ Kotlin mobile project using:
 * Room
 * Dependency Injection (Hilt)
 * MVVM
+* BuildSrc
+   * Kotlin kts
 * Clean Architecture
   * Data
       * DataSource
